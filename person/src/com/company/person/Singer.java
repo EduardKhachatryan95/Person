@@ -9,16 +9,12 @@ public class Singer extends Person {
 
     }
 
-    public void coding(){
-        System.out.println("coding");
-    }
-
     public void singing(){
         System.out.println("singing");
     }
 
-    public void playGitar(){
-        System.out.println("playGitar");
+    public void playGuitar(){
+        System.out.println("playGuitar");
     }
 
 
