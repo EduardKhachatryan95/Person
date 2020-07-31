@@ -1,4 +1,4 @@
-package com.company.core.entrypoint;
+package com.company.core.factory;
 
 import com.company.core.model.Dancer;
 

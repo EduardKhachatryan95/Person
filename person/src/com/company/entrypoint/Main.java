@@ -1,7 +1,7 @@
 package com.company.entrypoint;
 
-import com.company.core.entrypoint.PersonEnum;
-import com.company.core.entrypoint.PersonFactory;
+import com.company.core.factory.PersonEnum;
+import com.company.core.factory.PersonFactory;
 import com.company.core.model.Dancer;
 import com.company.core.model.Person;
 import com.company.core.model.Programmer;

@@ -1,5 +1,6 @@
-package com.company.core.entrypoint;
+package com.company.core.factory;
 
+import com.company.core.factory.PersonEnum;
 import com.company.core.model.Person;
 import com.company.core.service.impl.DancerActionImpl;
 import com.company.core.service.impl.ProgrammerActionImpl;
@@ -10,7 +11,7 @@ public class PersonFactory {
 
         private  Person model;
 
-        public  PersonAction init(Person model,PersonEnum type){
+        public  PersonAction init(Person model, PersonEnum type){
             this.model = model;
             return this.getPerson(type);
         }
